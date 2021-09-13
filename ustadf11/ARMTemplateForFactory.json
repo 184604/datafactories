@@ -80,6 +80,9 @@
 						]
 					}
 				],
+				"folder": {
+					"name": "Lego/copy"
+				},
 				"annotations": []
 			},
 			"dependsOn": [
