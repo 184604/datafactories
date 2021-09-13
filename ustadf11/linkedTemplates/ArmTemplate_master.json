@@ -7,13 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ustadf11"
 		},
-		"Cassandra1_password": {
-			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'Cassandra1'"
-		},
 		"AzureTableStorage_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureTableStorage'"
+		},
+		"Cassandra1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'Cassandra1'"
 		},
 		"Cassandra1_properties_typeProperties_host": {
 			"type": "string",
@@ -54,11 +54,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"Cassandra1_password": {
-						"value": "[parameters('Cassandra1_password')]"
-					},
 					"AzureTableStorage_connectionString": {
 						"value": "[parameters('AzureTableStorage_connectionString')]"
+					},
+					"Cassandra1_password": {
+						"value": "[parameters('Cassandra1_password')]"
 					},
 					"Cassandra1_properties_typeProperties_host": {
 						"value": "[parameters('Cassandra1_properties_typeProperties_host')]"

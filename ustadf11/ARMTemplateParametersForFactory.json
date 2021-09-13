@@ -5,10 +5,10 @@
 		"factoryName": {
 			"value": "ustadf11"
 		},
-		"Cassandra1_password": {
+		"AzureTableStorage_connectionString": {
 			"value": ""
 		},
-		"AzureTableStorage_connectionString": {
+		"Cassandra1_password": {
 			"value": ""
 		},
 		"Cassandra1_properties_typeProperties_host": {
