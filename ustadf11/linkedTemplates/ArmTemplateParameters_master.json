@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ustadf11"
+		},
+		"Cassandra1_password": {
+			"value": ""
+		},
+		"AzureTableStorage_connectionString": {
+			"value": ""
+		},
+		"Cassandra1_properties_typeProperties_host": {
+			"value": "ustsa099"
+		},
+		"Cassandra1_properties_typeProperties_username": {
+			"value": "azureadmin"
+		},
+		"SWAPI Service_properties_typeProperties_url": {
+			"value": "https://swapi.dev/api/people"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
